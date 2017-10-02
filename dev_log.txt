@@ -1,0 +1,38 @@
+[+] = add
+[-] = delete
+[o] = modify
+=================
+>>>SAME for exchange and express
+-> Replace product description WYSIWYG editor to textarea [Done]
+-> fix blog tags
+-> remove $c_set = 'ok'; ???
+-> fix minify; modified bottom_n.php and top_n.php; 
+-> Submit buttn should work with Enter Key
+-> add color to option column to invoice_email.php, invoice.php, admin/sales_view.php, vendor/sales_view.php
+-> Replace Vendor to Seller (cancelled) 
+-> Redesign Folders' layout espcially at view section (cancelled)
+-> Add partners' logo to oneSTore.ph [PART 2]
+
+=================
+os_exchange_v1.0
+--------------------
+[+] create new entity for DB
+[+] import package.sql
+[o] run ALTER TABLE `product` ADD `package_id` INT(10) UNSIGNED NOT NULL DEFAULT '0' , ADD INDEX (`package_id`) ;
+[+] Add dropdown box called package on Admin product edit and Add page; modified product_add.php, product_edit.php and crud_model.php
+
+>>>MAJOR
+-> Make it single seller
+-> separate account for each logistic -> Creating Logistics panel (cancelled)
+-> Add LBP payment soln 
+-> add 2GO | Pre-defined packages
+-> Upgrade UI of frontend (e.i. replace banner, etc) fit for exchange
+>>>MINOR
+-> change color of text in banner to teal
+
+RALPH
+--------------------
+1. I hope we can integrate a minimum order feature for each product.
+2. Whenever I re-publish a recently unpublished product, for example from page 3 of the list of products, the list returns to the very first page. Kind of tedious if you are republishing multiple products located at different pages of the list.	
+3. Here's a scenario: Product cost: 80 pesos. If you apply the bank deposit charge and service charges, it may lead to a negative sale. Any comments?
+

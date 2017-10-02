@@ -1,0 +1,125 @@
+.wished_it .fa{
+	/*color: #18ba9b !important;*/
+}
+
+.added_to_cart .fa{
+	/*color: #18ba9b !important;*/
+}
+
+
+.sub_cat{
+	padding-left:30px !important;
+}
+
+
+.slider-snap-text span:after {
+    content: "\20B1" !important;
+}
+
+#range {
+	/*height: 300px;
+	margin: 0 auto 30px;*/
+}
+
+/*Choose Block*/
+/*
+.who li {
+	margin-bottom: 6px;
+}
+.who li i {
+	color: #72c02c;
+	font-size: 13px;
+	min-width: 15px;
+	margin-right: 8px;
+	text-align: center;
+	position: relative;
+}
+.who li:hover i,
+.who li:hover a {
+	color: #777;
+}
+.who li:hover a:hover {
+	text-decoration: none;
+}
+
+p,
+li,
+li a,
+label {
+   color: #555;
+}
+*/
+.header-fixed .header-v5.header-fixed-shrink {
+    height: 126px !important;
+    margin-top: -57px !important;
+}
+
+.topbar-v3 .search-open .search {
+	top: 5px;
+	right: 20px;
+	color: #fff;
+	cursor: pointer;
+	position: absolute;
+}
+
+.cpm_border {
+	border: 1px solid;
+}
+
+.cc-selector input{
+    margin:0;
+    padding:0;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+}
+
+.paypal{background-image:url(../img/payment/paypal.png);}
+.cod{background-image:url(../img/payment/cod.png);}
+.ibayad{background-image:url(../img/payment/ibayad.png);}
+
+.cc-selector input:active +.drinkcard-cc{
+	opacity: 1;
+	border:5px solid #72c02c;
+}
+
+.cc-selector input:checked +.drinkcard-cc{
+	-webkit-filter: none;
+	-moz-filter: none;
+	filter: none;
+	border:5px solid #e67e22;
+}
+
+.drinkcard-cc{
+	cursor:pointer;
+	background-size:contain;
+	background-repeat:no-repeat;
+	display:inline-block;
+	width:290px;
+	height:150px;
+	-webkit-transition: all 100ms ease-in;
+	-moz-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	-webkit-filter:opacity(.8);
+	-moz-filter:opacity(.8);
+	filter:opacity(.8);
+	transition: all .6s ease-in-out;
+	border:5px solid transparent;
+}
+
+.drinkcard-cc:hover{
+	-webkit-filter:opacity(1);
+	-moz-filter: opacity(1);
+	filter:opacity(1);
+	transition: all .6s ease-in-out;
+	border:5px solid #e67e22;		
+}
+
+/**/
+.gender{
+	color:#fff !important;
+}
+
+.tp-banner div{
+	/*color:#e67e22 !important;*/
+}
